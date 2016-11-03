@@ -1,6 +1,11 @@
 #### install
-docker build .
+#### centos
+```
+yum install  docker
+docker pull FourLeafClover
+docker run FourLeafClover
 
+```
 ### preview
 
 [beckend](http://admin.fourleafclover.jingdor.com/) |
