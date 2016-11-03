@@ -3,5 +3,5 @@
 
 ### preview
 
-[beckend](http://adminfourleafclover.jingdor.com/) |
+[beckend](http://admin.fourleafclover.jingdor.com/) |
 [frontend](http://fourleafclover.jingdor.com/)  
