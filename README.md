@@ -1,10 +1,15 @@
 #### install
 #### centos
 ```
-yum install  docker
+yum install -y   docker-engine
 docker pull FourLeafClover
 docker run FourLeafClover
-
+```
+#### ubuntu
+```
+apt-get install  docker-engine
+docker pull FourLeafClover
+docker run FourLeafClover
 ```
 ### preview
 
