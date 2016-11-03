@@ -1,9 +1,12 @@
 <?php ob_start(); ?>
 
-<!-- begin -->
+
+
 <?php echo $content ?>
 
-<!-- end -->
+
+
 <?php  $content=ob_get_contents() ?>
 <?php  ob_end_clean(); ?>
-<?php  echo layout($content,$page) ?>
+<?php include LAYOUT.'/master.phtml' ?>
+<?php echo $content ?>

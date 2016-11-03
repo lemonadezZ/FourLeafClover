@@ -1,1 +1,11 @@
-<?php
+<?php ob_start(); ?>
+<html>
+<head>
+	<title><?php echo $page->title; ?></title>
+<head>
+<body>
+	<?php echo $content ?>
+</body>
+</html>
+<?php  $content=ob_get_contents() ?>
+<?php  ob_end_clean(); ?>

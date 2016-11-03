@@ -1,7 +1,10 @@
 <?php
-class IndexController extends Yaf_Controller_Abstract {
-   // default action name
-   public function indexAction() {  
-        $this->getView()->content = "Hello World";
-   }
+class IndexController extends BaseController {
+
+	public function indexAction() {  
+		$page=new stdClass;
+		$page->title="页面";
+		$this->getView()->page =$page;
+		$this->getView()->content = "1st page";
+	}
 }

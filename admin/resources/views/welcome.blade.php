@@ -72,10 +72,12 @@
                     <a href="{{ url('/register') }}">Register</a>
                 </div>
             @endif
-
             <div class="content">
                 <div class="title m-b-md">
                 	fourleafclover
+		</div>
+		<div class="links">
+			<a href="{{url('/login')}}">LOGIN</a>
 		</div>
             </div>
         </div>
