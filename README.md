@@ -1,3 +1,7 @@
+### status
+
+[![Build Status](https://secure.travis-ci.org/sonnym/travis-ci-drupal-module-example.png?branch=master)]
+
 ### install
 #### shell 
 ```
