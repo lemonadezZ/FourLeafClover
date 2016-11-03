@@ -5,7 +5,7 @@
 ### install
 #### shell 
 ```
-- https://raw.githubusercontent.com/lemonadezZ/FourLeafClover/master/bin/install.sh | bash
+curl -o-  https://raw.githubusercontent.com/lemonadezZ/FourLeafClover/master/bin/install.sh | bash
 ```
 #### centos
 ```
