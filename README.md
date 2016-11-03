@@ -1,4 +1,8 @@
-#### install
+### install
+#### shell 
+```
+- https://raw.githubusercontent.com/lemonadezZ/FourLeafClover/master/bin/install.sh | bash
+```
 #### centos
 ```
 yum install -y   docker-engine
@@ -10,6 +14,10 @@ docker run FourLeafClover
 apt-get install  docker-engine
 docker pull FourLeafClover
 docker run FourLeafClover
+```
+#### windows
+```
+coming soon
 ```
 ### preview
 
