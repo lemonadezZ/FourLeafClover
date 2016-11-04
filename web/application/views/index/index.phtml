@@ -1,7 +1,6 @@
 <?php ob_start(); ?>
-
 <!-- begin -->
-<?php echo $content ?>
+<?php include '_section1.phtml';?>
 <!-- end -->
 <?php  $content=ob_get_contents() ?>
 <?php  ob_end_clean(); ?>
