@@ -1,0 +1,34 @@
+<?php ob_start(); ?>
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title><?php echo $page->title; ?></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!-- Place favicon.ico in the root directory -->
+
+<link href="<?= url_css('/css/font-awesome.min.css');?> "  rel="stylesheet" type="text/css" />
+<link href="<?= url_css('/bower_components/bulma/css/bulma.css');?> "  rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="<?= url('/css/main.css'); ?> " >
+
+<script src="<?= url_js('/js/react.min.js'); ?>"></script>
+<script src="<?= url_js('/js/react-dom.min.js'); ?>"></script>
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<?= part('header',$page); ?>
+<?php echo $content ?>
+<?= part('footer',$page); ?>
+</body>
+<?= part('google_analytics',$page); ?>
+</html>
+<?php  $content=ob_get_contents() ?>
+<?php  ob_end_clean(); ?>

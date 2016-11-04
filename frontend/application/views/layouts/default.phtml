@@ -1,0 +1,12 @@
+<?php ob_start(); ?>
+
+
+
+<?php echo $content ?>
+
+
+
+<?php  $content=ob_get_contents() ?>
+<?php  ob_end_clean(); ?>
+<?php include LAYOUT.'/master.phtml' ?>
+<?php echo $content ?>

@@ -1,0 +1,67 @@
+<?php ob_start(); ?>
+<header>
+<nav class="nav">
+<div class="nav-left">
+<a class="nav-item is-brand" href="#">
+<strong>
+	Fourleafclover
+</strong>
+</a>
+</div>
+
+<div class="nav-center">
+<a class="nav-item" href="#">
+<span class="icon">
+<i class="fa fa-github"></i>
+</span>
+</a>
+<a class="nav-item" href="#">
+<span class="icon">
+<i class="fa fa-twitter"></i>
+</span>
+</a>
+</div>
+
+<span class="nav-toggle">
+<span></span>
+<span></span>
+<span></span>
+</span>
+
+<div class="nav-right nav-menu">
+<a class="nav-item" href="#">
+Home
+</a>
+<a class="nav-item" href="#">
+Documentation
+</a>
+<a class="nav-item" href="#">
+Community
+</a>
+<a class="nav-item" href="#">
+Login
+</a>
+<a class="nav-item" href="#">
+Signup
+</a>
+
+<span class="nav-item">
+<a class="button" >
+<span class="icon">
+<i class="fa fa-twitter"></i>
+</span>
+<span>twitter</span>
+</a>
+<a class="button is-primary" href="#">
+<span class="icon">
+<i class="fa fa-download"></i>
+</span>
+<span>Download</span>
+</a>
+</span>
+</div>
+</nav>
+
+</header>
+<?php  $content=ob_get_contents() ?>
+<?php  ob_end_clean(); ?>
