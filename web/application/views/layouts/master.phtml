@@ -20,8 +20,12 @@
 <!--[if lte IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
+
+<?= part('header',$page); ?>
 <?php echo $content ?>
+<?= part('footer',$page); ?>
 </body>
+<?= part('google_analytics',$page); ?>
 </html>
 <?php  $content=ob_get_contents() ?>
 <?php  ob_end_clean(); ?>

@@ -3,6 +3,7 @@ define("APPLICATION_PATH",  dirname(dirname(__FILE__)));
 define("APP",APPLICATION_PATH.'/application/');
 define("VIEW",APP.'views/');
 define("LAYOUT",VIEW.'layouts/');
+define("PART",VIEW.'parts/');
 
 include "../function.php";
 
