@@ -4,7 +4,7 @@ class UserController extends BaseController {
 	//登录
 	public function loginAction() {
 		$page=new stdClass;
-		$page->title="page";
+		$page->title="Login";
 		$this->getView()->page =$page;
 		$this->getView()->content = "1st page";
 	}
@@ -18,7 +18,7 @@ class UserController extends BaseController {
 	//注册
 	public function signupAction() {
 		$page=new stdClass;
-		$page->title="page";
+		$page->title="Sign";
 		$this->getView()->page =$page;
 		$this->getView()->content = "1st page";
 	}
