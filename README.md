@@ -33,7 +33,21 @@ coming soon
 #### technology stack
 
 * docker/vagrant
-* php(laravel,yaf,composer)
+* php(laravel,yaf,composer) python/shell
 * javascript (react jquery yarn bower)
 * mysql
 * redis
+* HTTP tcp/ip and so on
+
+### help
+
+* QQ : 945627077
+* QQ GROUP: 148063955
+* E-mail: jingdor@qq.com
+
+### other
+
+* 安静的写点东西
+* 各个方面都需要完善 
+* JUST DO IT
+
