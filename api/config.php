@@ -8,4 +8,6 @@ return [
 	'db_username'=>"fourleafclover",
 	'db_password'=>"fourleafclover",
 	'db_database'=>"fourleafclover",
+	'storge'=>'file',
+	'cache'=>'file',
 	];
