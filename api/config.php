@@ -1,6 +1,6 @@
 <?php
 return [
-	'debug'=>"false", 
+	'debug'=>false, 
 	'log'=>"error", //debug info notice warning error crit
 	'log_level'=>"info", 
 	'db'=>"mysql",  //mysql
