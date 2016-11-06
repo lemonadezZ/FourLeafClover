@@ -25,8 +25,8 @@ coming soon
 ```
 ### preview
 
-[beckend](http://admin.fourleafclover.jingdor.com/) |
-[frontend](http://fourleafclover.jingdor.com/)  
+[beckend](http://backend.fourleafclover.jingdor.com/) |
+[frontend](http://frontend.fourleafclover.jingdor.com/)  
 
 ### develop
 
