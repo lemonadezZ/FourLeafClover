@@ -1,0 +1,15 @@
+<?php ob_start(); ?>
+<!-- begin -->
+<section class="section">
+    <div class="container">
+	<div class="columns">
+		<div class="column is-4 is-offset-4 ">
+		<?php include '_login.phtml';?>
+		<div>
+	</div>
+    </div>
+</section>
+<!-- end -->
+<?php  $content=ob_get_contents() ?>
+<?php  ob_end_clean(); ?>
+<?php  echo layout($content,$page) ?>
