@@ -33,6 +33,18 @@ function dispatch($request){
 	return include($file_path);
 }
 //env
-function env(){
+function env($key){
+	$conf=include 'config.php';
+	return $conf[$key];
+}
+//获取db实例
+function db(){
+}
+//缓存
+function cache($segment,$val,$ttl=null){
 
+}
+//trace api 跟踪id
+function trace(){
+	
 }
