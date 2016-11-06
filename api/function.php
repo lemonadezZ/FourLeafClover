@@ -48,3 +48,7 @@ function cache($segment,$val,$ttl=null){
 function trace(){
 	
 }
+
+function deltree(){
+
+}

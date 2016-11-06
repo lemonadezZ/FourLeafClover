@@ -1,2 +1,4 @@
-#!/bin/bash
-echo "根据注释生成api文档"
+#!/usr/bin/php
+<?php 
+echo __DIR__;
+system('rm -rf docs/*');
