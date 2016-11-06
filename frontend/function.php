@@ -11,7 +11,7 @@ function part($part,$page=[]){
 }
 //
 function layout($content,$page=[],$master="master"){
- 	include LAYOUT.'master.phtml';
+ 	include LAYOUT.$master.'.phtml';
 	return $content;
 }
 //
