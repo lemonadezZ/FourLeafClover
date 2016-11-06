@@ -45,8 +45,12 @@ coming soon
 * QQ GROUP: 148063955
 * E-mail: jingdor@qq.com
 
+### coding standards
+
+
 ### other
 
 * 安静的写点东西
 * 各个方面都需要完善 如果你对这个项目感兴趣 请联系我参与或者 提issues，你们的参与是对我最大的鼓励
 * JUST DO IT
+
